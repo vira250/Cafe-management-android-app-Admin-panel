@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#FFFCFC</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#00f0ff</color>
+    <color name="dark_background">#2D3333</color>
+    <color name="gentle_grey">#C1CACC</color>
+    <color name="grey">#808080</color>
+    <color name="orange">#FF9800</color>
+    <color name="pink">#ff5ccb</color>
+    <color name="purple_200">#D7BBFA</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#FF0000</color>
+    <color name="teal_200">#57E9DB</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="textHeading">#008eff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#e5e500</color>
+    <string name="app_name">CafeAdmin</string>
+    <string name="default_web_client_id" translatable="false">33221438389-hkebgvol5btugjs7hqbgtiv8ps9e4t6n.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">33221438389</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhPTTXZFyKAoN2uV8euxeJv8x5IkmVDT4</string>
+    <string name="google_app_id" translatable="false">1:33221438389:android:52a2450504dece7b8d47fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhPTTXZFyKAoN2uV8euxeJv8x5IkmVDT4</string>
+    <string name="google_storage_bucket" translatable="false">cafemanagement-514cb.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_id" translatable="false">cafemanagement-514cb</string>
+    <string name="spinner_hint">Select a Category...</string>
+    <style name="Base.Theme.CafeAdmin" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CafeAdmin" parent="Base.Theme.CafeAdmin"/>
+</resources>

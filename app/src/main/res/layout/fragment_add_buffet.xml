@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.AddBuffetFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_200"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="ADD PRODUCTS"/>
+
+
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_marginTop="30dp"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/addImage"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:drawableRight="@drawable/baseline_upload_24"
+            android:backgroundTint="@color/orange"
+            android:layout_marginTop="30dp"
+            android:text="SELECT IMAGE"/>
+
+        <EditText
+            android:id="@+id/buffet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buffet Name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_bg"
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/buffet_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buffet Price"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_bg"
+            android:padding="15dp"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Description"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text_bg"
+            android:padding="15dp"/>
+
+        <Button
+            android:id="@+id/addBuffetbtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:backgroundTint="@color/orange"
+            android:layout_marginTop="30dp"
+            android:text="ADD Buffet "/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">33221438389-hkebgvol5btugjs7hqbgtiv8ps9e4t6n.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">33221438389</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhPTTXZFyKAoN2uV8euxeJv8x5IkmVDT4</string>
+    <string name="google_app_id" translatable="false">1:33221438389:android:52a2450504dece7b8d47fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhPTTXZFyKAoN2uV8euxeJv8x5IkmVDT4</string>
+    <string name="google_storage_bucket" translatable="false">cafemanagement-514cb.appspot.com</string>
+    <string name="project_id" translatable="false">cafemanagement-514cb</string>
+</resources>

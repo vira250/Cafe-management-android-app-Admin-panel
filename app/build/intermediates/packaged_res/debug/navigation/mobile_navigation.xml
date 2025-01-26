@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cafeadmin.Fragment.HomeFragment"
+        android:label="Cafe Admin"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_addcategory"
+        android:name="com.example.cafeadmin.Fragment.AddCategoryFragment"
+        android:label="Add Category"
+        tools:layout="@layout/fragment_add_category"/>
+
+    <fragment
+        android:id="@+id/nav_addbuffet"
+        android:name="com.example.cafeadmin.Fragment.AddBuffetFragment"
+        android:label="Add Buffet"
+        tools:layout="@layout/fragment_add_buffet"/>
+
+    <fragment
+        android:id="@+id/nav_addbanner"
+        android:name="com.example.cafeadmin.Fragment.AddBannerFragment"
+        android:label="Add Banner"
+        tools:layout="@layout/fragment_add_banner"/>
+</navigation>
