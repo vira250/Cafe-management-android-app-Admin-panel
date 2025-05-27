@@ -21,19 +21,19 @@ This repository contains the **Admin Panel** of a Cafe Management System built u
 
 ## 📸 Screenshots
 <p float="left">
-  <img src="images/login.png" width="30%" />
-  <img src="images/add_product.png" width="30%" />
-  <img src="images/order_list.png" width="30%" />
+  <img src="images/home page admin.jpg" width="30%" />
+  <img src="images/add buffet.jpg" width="30%" />
+  <img src="images/add category.jpg" width="30%" />
 </p>
 <p float="left">
-  <img src="images/category_filter.png" width="30%" />
-  <img src="images/product_list.png" width="30%" />
-  <img src="images/order_status.png" width="30%" />
+  <img src="images/add banner.jpg" width="30%" />
+  <img src="images/banner.jpg" width="30%" />
+  <img src="images/order list.jpg" width="30%" />
 </p>
 <p float="left">
-  <img src="images/profile.png" width="30%" />
-  <img src="images/settings.png" width="30%" />
-  <img src="images/order_history.png" width="30%" />
+  <img src="images/user list.jpg" width="30%" />
+  <img src="images/products.jpg" width="30%" />
+  <img src="images/categories.jpg" width="30%" />
 </p>
 
 
