@@ -43,3 +43,23 @@ This repository contains the **Admin Panel** of a Cafe Management System built u
    ```bash
    git clone https://github.com/vira250/Cafe-management-android-app-Admin-panel.git
    ```
+2. **Open in Android Studio**
+
+`Connect to Firebase`
+
+`Create a new project in Firebase.`
+
+`Add Android app with the package name used in the project.`
+
+`Download google-services.json and place it in the app/ directory.`
+
+`Enable Firebase Firestore, Authentication, and Storage.`
+
+`Build and Run the App`
+
+## ✅ Requirements
+Android Studio (latest version)
+
+Firebase account
+
+Android Device/Emulator with minimum SDK level 21
