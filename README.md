@@ -26,7 +26,7 @@ This repository contains the **Admin Panel** of a Cafe Management System built u
   <img src="images/add category.jpg" width="30%" />
 </p>
 <p float="left">
-  <img src="images/add banner.jpg" width="30%" />
+  <img src="images/add banner .jpg" width="30%" />
   <img src="images/banner.jpg" width="30%" />
   <img src="images/order list.jpg" width="30%" />
 </p>
